@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.homework.TestClassTwo" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-06-27T18:56:30" hostname="Heorhii.Plakhotniuk" time="0.012">
+  <properties/>
+  <testcase name="dataXML[0](3.0, float)" classname="com.homework.TestClassTwo" time="0.004"/>
+  <testcase name="testDataProvider[0](+1, positive)" classname="com.homework.TestClassTwo" time="0.005"/>
+  <testcase name="testDataProvider[1](-1, negative)" classname="com.homework.TestClassTwo" time="0.001"/>
+  <testcase name="testDataProvider[2](0, zero)" classname="com.homework.TestClassTwo" time="0.0"/>
+  <system-out><![CDATA[Data is 3.0
+Def is float
+Num: +1 is positive
+Num: -1 is negative
+Num: 0 is zero
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

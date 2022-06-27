@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="suite1" verbose="1">
+    <test name="Regression suite 1">
+        <classes>
+            <class name="com.homework.TestClassTwo">
+                <parameter name="num" value="3.0"/>
+                <parameter name="def" value="float"/>
+            </class>
+            <class name="com.homework.SimpleTest"/>
+            <class name="com.homework.AppTest"/>
+            <class name="com.homework.TestClassOne"/>
+            <class name="com.homework.TestClassThree"/>
+        </classes>
+    </test>
+</suite>
